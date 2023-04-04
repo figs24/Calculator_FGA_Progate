@@ -100,5 +100,6 @@ decimal.addEventListener("click", (event) => {
 const percentages = document.querySelector(".percentage")
 
 percentages.addEventListener("click", () =>{
-    console.log("button percen running")
+    currentNumber /=100
+    updateScreen(currentNumber)
 })
