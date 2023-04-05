@@ -1,7 +1,20 @@
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+h1:hover {
+  color: brown;
+  font-size: 60px;
+}
+
 .calculator {
   text-align: center;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 25px;
   width: 400px;
 }
 
